@@ -1,0 +1,116 @@
+{
+  "workflow_version": "1.2.0",
+  "timestamps": {
+    "started": "2025-12-02T21:51:50Z",
+    "last_updated": "2025-12-02T22:10:24Z",
+    "completed": "2025-12-02T22:10:24Z"
+  },
+  "mode": "initial_scan",
+  "scan_level": "deep",
+  "project_root": "/home/joseybv/workspace/semantic-release-gitea",
+  "output_folder": "/home/joseybv/workspace/semantic-release-gitea/docs",
+  "completed_steps": [
+    {
+      "step": "step_1",
+      "status": "completed",
+      "timestamp": "2025-12-02T21:53:43Z",
+      "summary": "Classified as monolith with 1 part - Library (npm package)"
+    },
+    {
+      "step": "step_2",
+      "status": "completed",
+      "timestamp": "2025-12-02T21:54:48Z",
+      "summary": "Found 3 existing docs (README, CONTRIBUTING, CHANGELOG)"
+    },
+    {
+      "step": "step_3",
+      "status": "completed",
+      "timestamp": "2025-12-02T21:58:05Z",
+      "summary": "Tech stack: Node.js library with got HTTP client, AVA testing"
+    },
+    {
+      "step": "step_4",
+      "status": "completed",
+      "timestamp": "2025-12-02T21:59:30Z",
+      "summary": "Library-specific analysis: 3 exports, 11 modules, 5 test files"
+    },
+    {
+      "step": "step_5",
+      "status": "completed",
+      "timestamp": "2025-12-02T22:00:08Z",
+      "summary": "Source tree documented with 27 files, ~1490 LOC"
+    },
+    {
+      "step": "step_6",
+      "status": "completed",
+      "timestamp": "2025-12-02T22:05:01Z",
+      "summary": "Development guide written with setup, testing, CI/CD info"
+    },
+    {
+      "step": "step_8",
+      "status": "completed",
+      "timestamp": "2025-12-02T22:07:30Z",
+      "summary": "Architecture document written (341 lines)"
+    },
+    {
+      "step": "step_9",
+      "status": "completed",
+      "timestamp": "2025-12-02T22:08:45Z",
+      "summary": "Project overview written (145 lines)"
+    },
+    {
+      "step": "step_10",
+      "status": "completed",
+      "timestamp": "2025-12-02T22:09:30Z",
+      "summary": "Master index generated (143 lines)"
+    },
+    {
+      "step": "step_11",
+      "status": "completed",
+      "timestamp": "2025-12-02T22:10:24Z",
+      "summary": "Validation complete - no incomplete markers found"
+    },
+    {
+      "step": "step_12",
+      "status": "completed",
+      "timestamp": "2025-12-02T22:10:24Z",
+      "summary": "Workflow finalized"
+    }
+  ],
+  "current_step": "completed",
+  "findings": {
+    "project_classification": "Monolith, 1 part, JavaScript/Node.js library",
+    "existing_docs": "3 docs found (README.md, CONTRIBUTING.md, CHANGELOG.md)",
+    "technology_stack": "Node.js ^10-14+, got HTTP, lodash, AVA testing, xo linting",
+    "conditional_analysis": "3 exports, 11 lib modules, 5 test files",
+    "source_tree": "27 files, ~1490 LOC total",
+    "development_info": "npm scripts, AVA testing, XO linting, Commitizen, GitHub Actions CI/CD"
+  },
+  "project_types": [
+    {
+      "part_id": "main",
+      "project_type_id": "library",
+      "display_name": "Library (npm package)"
+    }
+  ],
+  "project_parts": [
+    {
+      "part_id": "main",
+      "root_path": "/home/joseybv/workspace/semantic-release-gitea",
+      "project_type_id": "library",
+      "name": "@saithodev/semantic-release-gitea",
+      "description": "semantic-release plugin to publish releases to Gitea",
+      "language": "JavaScript",
+      "entry_point": "index.js"
+    }
+  ],
+  "outputs_generated": [
+    "project-scan-report.json",
+    "source-tree-analysis.md",
+    "development-guide.md",
+    "architecture.md",
+    "project-overview.md",
+    "index.md"
+  ],
+  "resume_instructions": "Workflow complete"
+}
