@@ -21,7 +21,9 @@ date: '2025-12-02'
 
 ## Executive Summary
 
-This project modernizes the abandoned `@saithodev/semantic-release-gitea` plugin (v2.1.0, last updated April 2021) into a modern, Forgejo-first release automation tool published as `@pcc/semantic-release-gitea`.
+This project modernizes the abandoned `@saithodev/semantic-release-gitea` plugin (v2.1.0, last updated April 2021) into a modern, Forgejo-first release automation tool published as `@pcc/semantic-release-forgejo`.
+
+> **Note on naming:** The repository remains `semantic-release-gitea` for historical continuity and fork traceability, but the npm package is published as `@pcc/semantic-release-forgejo` to reflect the Forgejo-first focus.
 
 The modernization addresses critical gaps in the original library:
 - **Outdated runtime**: Node.js 10/11/12/14+ → Node.js 22+
